@@ -1,17 +1,29 @@
-import { Box } from '@material-ui/core'
-import { useState } from 'react'
+import { Box,TextField,Button } from '@material-ui/core'
+import { Form } from './Class Components/Formik'
+import { Menuu } from './Class Components/Menu'
 import { GenerateModal } from './Class Components/Modal'
 import { Popperr } from './Class Components/Popper'
-
+import  MultipleSelectCheckmarks  from './Class Components/Select'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
    <Box>
-    <GenerateModal/>
-    <Popperr/>
+    {/* <GenerateModal/> */}
+    {/* <Popperr/> */}
+    {/* <Menuu/> */}
+    
+    {/* <Box  display={"flex"}>
+      <Button style={{height:"40px"}} variant={'outlined'}>Hello</Button>
+      <TextField size={'small'}  variant={'outlined'} placeholder={'Hello'}/>
+    </Box> */}
+   {/* <MultipleSelectCheckmarks/> */}
+   {/* <input type="file" onChange={(e)=>{
+      
+   }}/> */}
+
+   <Form/>
    </Box>
   )
 }

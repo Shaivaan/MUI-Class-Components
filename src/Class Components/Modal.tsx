@@ -50,6 +50,7 @@ export class GenerateModal extends Component<{}, { open: boolean }> {
       // className = {this.classes.paper}
       >
           <Box>Content of Model</Box>
+          <Box>Content of Model</Box>
       </Box>
     );
 
